@@ -1,0 +1,156 @@
+body{
+    inline-size: ;
+    block-size: 1576px;
+    background-color: white;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: start;
+    padding: 20px;
+    gap: 30px;
+    background-color: #6857E8;
+    color: white;
+}
+
+.nav-container-a{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-first-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    gap: 10px;
+}
+
+.nav-user{
+    inline-size: 50px;
+    block-size: 50px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+}
+
+.nav-user-name{
+
+}
+
+.nav-user-name h1{
+    font-size: 10px;
+}
+
+.nav-user-name h1 span{
+    font-size: 20px;
+}
+
+.nav-second-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    gap: 10px;
+}
+
+.nav-coin{
+    inline-size: 30px;
+    block-size: 30px;
+    flex-shrink: 0;
+    background-color:white;
+    border-radius: 100%;
+}
+
+.nav-coin image{
+    inline-size: 30px;
+    block-size: 30px;
+}
+
+.nav-coin-point{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.second-section{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-block-end: 5px;
+    background-color: #6857E8;
+}
+  
+.text {
+    padding: 6px;
+    font-size: 15px;
+}
+
+.courses{
+    padding: 10px;
+    background-color: #6857E8;
+    margin-block-start: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.course-container{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #6857E8;
+    border-radius: ;
+}
+
+.course-box{
+    inline-size: 150px;   
+    block-size: 150px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    background: #FFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.course-box img{
+    inline-size: 140px;
+    padding-block-start: 5px;
+
+}
+
+.course-box h1{
+    font-size: 10px;
+    text-align: start;
+    padding-inline-start: 10px;
+}
+
+.course-box h2{
+    font-size: 6px;
+    text-align: start;
+    padding-inline-start: 10px;
+}
+
+.course-box h2 svg{
+
+}
+
+.course-box h3{
+    font-size: 7px;
+    text-align: start;
+    padding-inline-start: 10px;
+    color: #6857E8;
+}
